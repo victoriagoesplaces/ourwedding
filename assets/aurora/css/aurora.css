@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=Farsan');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+/******* Fonts *******/
+.font-1 {
+  font-family: 'Rajdhani';
+}
+.font-2{
+  font-family: 'Farsan';
+}
+.font-3{
+  font-family: 'Major Mono Display', monospace;;
+}
+
+/******* Colors *******/
+.main-color {
+  color: #103756;
+}
+.color-2 {
+  color: #14446B;
+}
+.color-3 {
+  color: #05668D;
+}
+.color-4 {
+  color: #3EB1BE;
+}
+.color-5 {
+  color: #48F6B2;
+}
+.color-6 {
+color: #838383;
+}
+
+.main-bg {
+  background-color: #103756;
+}
+.bg-2 {
+  background-color: #14446B;
+}
+.bg-3 {
+  background-color: #05668D;
+}
+.bg-4 {
+  background-color: #3EB1BE;
+}
+.bg-5 {
+  background-color: #48F6B2;
+}
+.bg-6 {
+background-color: #838383;
+}
+
+/******* Grid *******/
+.grid {
+  width : 100%; 
+}
+
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+}
+[class*='col-'] {
+  float: left;
+  min-height: 1px; 
+  padding: 12px;
+}
+.col-s1 {
+  width: 8.3333333333%;
+}
+.col-s2 {
+  width: 16.6666666667%;
+}
+.col-s3 {
+  width: 25%;
+}
+.col-s4 {
+  width: 33.3333333333%;
+}
+.col-s5 {
+  width: 41.6666666667%;
+}
+.col-s6{
+  width: 50%;
+}
+.col-s7{
+  width: 58.3333333333%;
+}
+.col-s8{
+  width: 66.6666666667%;
+}
+.col-s9{
+  width: 75%;
+}
+.col-s10{
+  width: 83.3333333333%;
+}
+.col-s11{
+  width: 91.6666666667%;
+}
+.col-s12{
+  width: 100%;
+}
+.offset-s1 {
+  margin-left: 8.3333333333%;
+}
+.offset-s2 {
+  margin-left: 16.6666666667%;
+}
+.offset-s3 {
+  margin-left: 25%;
+}
+.offset-s4 {
+  margin-left: 33.3333333333%;
+}
+.offset-s5 {
+  margin-left: 41.6666666667%;
+}
+.offset-s6{
+  margin-left: 50%;
+}
+.offset-s7{
+  margin-left: 58.3333333333%;
+}
+.offset-s8{
+  margin-left: 66.6666666667%;
+}
+.offset-s9{
+  margin-left: 75%;
+}
+.offset-s10{
+  margin-left: 83.3333333333%;
+}
+.offset-s11{
+  margin-left: 91.6666666667%;
+}
+.offset-s12{
+  margin-left: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+  .col-m1 {
+    width: 8.3333333333%;
+  }
+  .col-m2 {
+    width: 16.6666666667%;
+  }
+  .col-m3 {
+    width: 25%;
+  }
+  .col-m4 {
+    width: 33.3333333333%;
+  }
+  .col-m5 {
+    width: 41.6666666667%;
+  }
+  .col-m6{
+    width: 50%;
+  }
+  .col-m7{
+    width: 58.3333333333%;
+  }
+  .col-m8{
+    width: 66.6666666667%;
+  }
+  .col-m9{
+    width: 75%;
+  }
+  .col-m10{
+    width: 83.3333333333%;
+  }
+  .col-m11{
+    width: 91.6666666667%;
+  }
+  .col-m12{
+    width: 100%;
+  }
+  .offset-m1 {
+    margin-left: 8.3333333333%;
+  }
+  .offset-m2 {
+    margin-left: 16.6666666667%;
+  }
+  .offset-m3 {
+    margin-left: 25%;
+  }
+  .offset-m4 {
+    margin-left: 33.3333333333%;
+  }
+  .offset-m5 {
+    margin-left: 41.6666666667%;
+  }
+  .offset-m6{
+    margin-left: 50%;
+  }
+  .offset-m7{
+    margin-left: 58.3333333333%;
+  }
+  .offset-m8{
+    margin-left: 66.6666666667%;
+  }
+  .offset-m9{
+    margin-left: 75%;
+  }
+  .offset-m10{
+    margin-left: 83.3333333333%;
+  }
+  .offset-m11{
+    margin-left: 91.6666666667%;
+  }
+  .offset-m12{
+    margin-left: 100%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .col-l1 {
+    width: 8.3333333333%;
+  }
+  .col-l2 {
+    width: 16.6666666667%;
+  }
+  .col-l3 {
+    width: 25%;
+  }
+  .col-l4 {
+    width: 33.3333333333%;
+  }
+  .col-l5 {
+    width: 41.6666666667%;
+  }
+  .col-l6{
+    width: 50%;
+  }
+  .col-l7{
+    width: 58.3333333333%;
+  }
+  .col-l8{
+    width: 66.6666666667%;
+  }
+  .col-l9{
+    width: 75%;
+  }
+  .col-l10{
+    width: 83.3333333333%;
+  }
+  .col-l11{
+    width: 91.6666666667%;
+  }
+  .col-l12{
+    width: 100%;
+  }
+  .offset-l1 {
+    margin-left: 8.3333333333%;
+  }
+  .offset-l2 {
+    margin-left: 16.6666666667%;
+  }
+  .offset-l3 {
+    margin-left: 25%;
+  }
+  .offset-l4 {
+    margin-left: 33.3333333333%;
+  }
+  .offset-l5 {
+    margin-left: 41.6666666667%;
+  }
+  .offset-l6{
+    margin-left: 50%;
+  }
+  .offset-l7{
+    margin-left: 58.3333333333%;
+  }
+  .offset-l8{
+    margin-left: 66.6666666667%;
+  }
+  .offset-l9{
+    margin-left: 75%;
+  }
+  .offset-l10{
+    margin-left: 83.3333333333%;
+  }
+  .offset-l11{
+    margin-left: 91.6666666667%;
+  }
+  .offset-l12{
+    margin-left: 100%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .col-xl1 {
+    width: 8.3333333333%;
+  }
+  .col-xl2 {
+    width: 16.6666666667%;
+  }
+  .col-xl3 {
+    width: 25%;
+  }
+  .col-xl4 {
+    width: 33.3333333333%;
+  }
+  .col-xl5 {
+    width: 41.6666666667%;
+  }
+  .col-xl6{
+    width: 50%;
+  }
+  .col-xl7{
+    width: 58.3333333333%;
+  }
+  .col-xl8{
+    width: 66.6666666667%;
+  }
+  .col-xl9{
+    width: 75%;
+  }
+  .col-xl10{
+    width: 83.3333333333%;
+  }
+  .col-xl11{
+    width: 91.6666666667%;
+  }
+  .col-xl12{
+    width: 100%;
+  }
+  .offset-xl1 {
+    margin-left: 8.3333333333%;
+  }
+  .offset-xl2 {
+    margin-left: 16.6666666667%;
+  }
+  .offset-xl3 {
+    margin-left: 25%;
+  }
+  .offset-xl4 {
+    margin-left: 33.3333333333%;
+  }
+  .offset-xl5 {
+    margin-left: 41.6666666667%;
+  }
+  .offset-xl6{
+    margin-left: 50%;
+  }
+  .offset-xl7{
+    margin-left: 58.3333333333%;
+  }
+  .offset-xl8{
+    margin-left: 66.6666666667%;
+  }
+  .offset-xl9{
+    margin-left: 75%;
+  }
+  .offset-xl10{
+    margin-left: 83.3333333333%;
+  }
+  .offset-xl11{
+    margin-left: 91.6666666667%;
+  }
+  .offset-xl12{
+    margin-left: 100%;
+  }
+}
+
+/******* Nav ********/
+
+/******* Tabs ********/
+.tab-con {
+  padding: 0 50px;
+  box-shadow: 0 3px 5px 0 rgba(black,.2);
+}
+
+.tabs {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.tab {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.icon,
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.tab .active {
+    font-weight: 300;
+}
+
+.indicator {
+position: absolute;
+bottom: 0;
+height: 3px;
+}
