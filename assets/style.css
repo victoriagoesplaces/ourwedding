@@ -1,23 +1,37 @@
 body{
-    margin:0;
-    background: url("images/weddingwebsitebg.jpg");
-    background-size: 100%;
-    font-family: 'Amatic SC', cursive;
-  }
-  
-  .nav-bar{  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .nav-img {
-    max-height: 9em;
-  }
+  margin:0;
+  background: url("images/weddingwebsitebg.jpg");
+  background-size: 100%;
+  font-family: 'Amatic SC', cursive;
+}
 
-  .nav-link {
-    color: #819ccb;
-    text-decoration: none;
-    font-size: 1.5em;
-  }
+.nav-bar{  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.nav-img {
+  max-height: 9em;
+}
+
+.nav-link {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  color: #819ccb;
+  text-decoration: none;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  color: #FF635E;
+}
