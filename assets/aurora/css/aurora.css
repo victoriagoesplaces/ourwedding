@@ -65,7 +65,6 @@ background-color: #838383;
 [class*='col-'] {
   float: left;
   min-height: 1px; 
-  padding: 12px;
 }
 .col-s1 {
   width: 8.3333333333%;
