@@ -1,0 +1,11 @@
+.event-info-content {
+  color: #819ccb;
+  background-color: rgba(0, 0, 0, 0.459);
+  text-align: center;
+  font-size: 2em;
+}
+
+body {
+  background-image: url(../images/bg.jpg);
+  background-size: 100%;
+}
