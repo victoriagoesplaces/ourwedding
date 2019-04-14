@@ -7,6 +7,8 @@ body,
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
 }
 
 .container {
@@ -19,7 +21,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -28,9 +29,10 @@ body {
 
 .title {
   font-size: 38px;
-  color: #616161;
+  color: #819ccb;
   font-style: italic;
-  font-weight: 800;
+  font-weight: bolder;
+  margin-top: 2em;
 }
 
 .timeline {
@@ -70,7 +72,7 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
-          box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
+  box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
   border-radius: 100%;
 }
 
@@ -94,7 +96,7 @@ body {
   margin-bottom: 50px;
   -webkit-transform: translate3d(20px, 0, 0);
           transform: translate3d(20px, 0, 0);
-  color: #d4a024;
+  color: #819ccb;
   font-weight: 300;
   opacity: 0;
   -webkit-transition: .2s ease .4s;
@@ -158,7 +160,7 @@ body {
           justify-content: center;
   font-style: italic;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 23px;
   z-index: 1;
 }
 
@@ -178,7 +180,7 @@ body {
   text-align: center;
   opacity: 1;
   background: transparent;
-  color: #d4a024;
+  color: #819ccb;
   margin: 15px 0 !important;
   position: relative;
 }
@@ -191,7 +193,7 @@ body {
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  background-color: #d4a024;
+  background-color: #819ccb;
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition: .2s;
@@ -199,7 +201,7 @@ body {
 }
 
 .timeline .swiper-pagination-bullet-active {
-  color: #d4a024;
+  color: #819ccb;
 }
 
 .timeline .swiper-pagination-bullet-active::before {
