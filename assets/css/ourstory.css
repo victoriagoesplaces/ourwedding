@@ -70,9 +70,9 @@ body {
   bottom: -10%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  -webkit-box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
-  box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.8);
+  box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.8);
   border-radius: 100%;
 }
 
