@@ -22,7 +22,7 @@ body{
     right: 0;
     margin: auto;
     z-index: 1;
-    max-width: 100px;
+    max-width: 140px;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }
@@ -107,11 +107,11 @@ border-radius: 0;
 .wedding-party-title {
     color: #819ccb;
     margin-top: 2em;
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 .name {
-    font-size: 2.3em;
+    font-size: 2.2em;
 }
 
 .title {
@@ -120,6 +120,6 @@ border-radius: 0;
 }
 
 .description {
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: 'Montserrat', sans-serif;
 }
