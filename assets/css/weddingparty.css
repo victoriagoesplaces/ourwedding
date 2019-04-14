@@ -1,7 +1,8 @@
 body{
     margin:0;
-    background: url("../images/our-story-bg.jpg");
+    /* background: url("../images/our-story-bg.jpg"); */
     background-size: 100%;
+    background-attachment: fixed;
     font-family: 'Amatic SC', cursive;
 }
 
