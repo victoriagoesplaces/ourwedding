@@ -148,7 +148,7 @@ body {
 }
 
 .timeline .swiper-pagination {
-  right: 15% !important;
+  right: 10% !important;
   height: 100%;
   display: none;
   -webkit-box-orient: vertical;
@@ -306,6 +306,6 @@ body {
             box-shadow: -230px 0 150px 39vw rgba(0, 0, 0, 0.7);
   }
   .timeline .swiper-slide-content {
-    right: 25%;
+    right: 18%;
   }
 }
