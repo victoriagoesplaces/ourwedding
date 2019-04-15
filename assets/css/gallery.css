@@ -73,32 +73,32 @@ body {
     }
     
     .box:nth-child(13) {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/416762/unsplash13.jpeg');  
+    background-image: url('../images/gallery/photo13.jpg');  
     grid-column: auto / span 3;
     }
     
     .box:nth-child(14) {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/416762/unsplash14.jpeg');   
+    background-image: url('../images/gallery/photo14.jpg');   
     }
     .box:nth-child(15) {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/416762/unsplash15.jpeg');  
+    background-image: url('../images/gallery/photo15.jpg');  
     }
     
     .box:nth-child(16) {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/416762/unsplash16.jpeg');   
+    background-image: url('../images/gallery/photo16.jpg');   
     }
     
     .box:nth-child(17) {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/416762/unsplash17.jpeg');  
+    background-image: url('../images/gallery/photo17.jpg');  
     }
     
     .box:nth-child(18) {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/416762/unsplash18.jpeg'); 
+    background-image: url('../images/gallery/photo18.jpg'); 
     }
     
     
     .box:nth-child(19) {
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/416762/unsplash19.jpeg');  
+    background-image: url('../images/gallery/photo19.jpg');  
     }
     
     /* MEDIA QUERIES */
