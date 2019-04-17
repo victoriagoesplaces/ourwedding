@@ -1,8 +1,8 @@
 // Mobile Dropdown Menu
-// $('#toggle').click(function() {
-//   $(this).toggleClass('active');
-//   $('#overlay').toggleClass('open');
-//  });
+$('#toggle').click(function() {
+  $(this).toggleClass('active');
+  $('#overlay').toggleClass('open');
+ });
 
  // Timeline
  var timelineSwiper = new Swiper ('.timeline .swiper-container', {
