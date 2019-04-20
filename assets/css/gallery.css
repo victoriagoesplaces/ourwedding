@@ -1,6 +1,8 @@
 body {
     background-color: #59595a0c;
     padding-top: 10px;
+    background-image: url(../images/bg.jpg)!important;
+    background-size: cover !important;
     }
     
     .wrapper {
