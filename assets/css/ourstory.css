@@ -303,6 +303,10 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  .mobileStory {
+    display: none;
+  }
+  
   .timeline .swiper-slide::after {
     right: -20%;
     bottom: -12%;
@@ -313,5 +317,11 @@ body {
   }
   .timeline .swiper-slide-content {
     right: 18%;
+  }
+}
+
+@media only screen and (max-width: 601px){
+  .desktopStory {
+    display: none;
   }
 }
