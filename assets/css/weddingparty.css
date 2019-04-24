@@ -124,3 +124,15 @@ border-radius: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
+@media only screen and (max-width: 601px){
+    .wedding-party-title {
+      display: none;
+    }
+    .global-nav {
+        margin-bottom: 3em;
+    }
+    body {
+        background: url("../images/bg.jpg");
+        background-size: cover;
+    }
+  }
