@@ -18,3 +18,19 @@ body {
 .row {
   margin-top: 4em;
 }
+
+.bottom-pad {
+  padding-bottom: 2em;
+}
+
+@media screen and (max-width: 601px) {
+  .event-info-content  {
+    margin-top: 0.5em !important;
+  }
+  .venueImg {
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 23em;
+    border-radius: 11% !important;
+  }
+}
