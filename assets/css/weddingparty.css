@@ -135,4 +135,7 @@ border-radius: 0;
         background: url("../images/bg.jpg");
         background-size: cover;
     }
-  }
+    .name {
+        margin-top: 1.5em;
+    }
+}
