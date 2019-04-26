@@ -30,7 +30,14 @@ body {
   .venueImg {
     padding-left: 1em;
     padding-right: 1em;
-    max-width: 23em;
+    max-width: 20em;
+    max-height: 15em;
+    text-align: center;
     border-radius: 11% !important;
+  }
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
   }
 }
