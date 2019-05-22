@@ -81,7 +81,7 @@ body {
   background-image: url('../images/gallery/photo14.jpg');   
 }
 .box:nth-child(15) {
-  background-image: url('../images/gallery/photo15.jpg');  
+  background-image: url('../images/gallery/photo15.JPG');  
 }
 
 .box:nth-child(16) {
@@ -89,11 +89,11 @@ body {
 }
 
 .box:nth-child(17) {
-  background-image: url('../images/gallery/photo17.jpg');  
+  background-image: url('../images/gallery/photo17.JPG');  
 }
 
 .box:nth-child(18) {
-  background-image: url('../images/gallery/photo18.jpg'); 
+  background-image: url('../images/gallery/photo18.JPG'); 
 }
 
 
